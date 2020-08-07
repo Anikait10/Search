@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="index2.css">
+    </head>
+    <body>
+
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Google Search</a>
+        </li>
+      </ul>
+      <div>
+        <h5 class="header-text">Advanced Search</h5>
+        <hr>
+      </div>
+
+        <p class="text-p">Find pages with...</p>
+        <form action="https://google.com/search" >
+
+          <div class="form-text">
+            <label for="text1">all these words: </label>
+            <input id="text1" type="text" name="as_q">
+          </div>
+
+          <div class="form-text">
+            <label for="text2">this exact word or phrase: </label>
+            <input id="text2" type="text" name="as_epq">
+          </div>
+
+          <div class="form-text">
+            <label for="text3">any of these words: </label>
+            <input id="text3"type="text" name="as_oq" value="">
+          </div>
+
+          <div class="form-text">
+            <label for="text4">none of these words: </label>
+            <input id="text4" type="text" name="as_eq" value="">
+          </div>
+
+          <div class="">
+            <input type="submit"  class="btn btn-primary" value="Advanced Search">
+          </div>
+
+        </form>
+    </body>
+</html>
