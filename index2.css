@@ -1,10 +1,17 @@
 .header-text {
   padding-left: 5%;
+  color: rgb(200, 64, 49);
 }
-.text-p {
-  padding-top: 1%;
-  padding-left: 3%;
+ul li img {
+  height:50%;
+  width: 25%;
 }
-.form-text {
-  padding-left: 3%;
+
+.form-input {
+  width: 100%;
+
+}
+.form-submit {
+  padding: 3%;
+
 }

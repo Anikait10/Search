@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title> Image Search</title>
+        <title> Google Images</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="index1.css">
@@ -9,18 +9,21 @@
     <body>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Google Search</a>
+          <a class="nav-link" href="googleSearch.html">Google Search</a>
         </li>
       </ul>
+      <div class="container-fluid text-center vertical-center">
+        <img src="googleimg.png" alt="">
+
         <form action="https://google.com/search" class="text-center">
           <div class="form-text">
             <input type="text" name="q" class="form-input rounded-pill">
             <input name="tbm" type="hidden" value="isch">
           </div>
           <div class="form-submit">
-            <input type="submit" value="Google Image Search" class="form-button rounded">
+            <input type="submit" value="Google Image Search" class="form-button rounded btn-primary">
           </div>
-
         </form>
+      </div>
     </body>
 </html>

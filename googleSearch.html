@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Search</title>
+        <title>Google</title>
               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
               <link rel="stylesheet" href="index.css">
@@ -9,20 +9,26 @@
     <body>
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link" href="index1.html">Image Search</a>
+          <a class="nav-link" href="imageSearch.html">Image Search</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index2.html">Advanced Search</a>
+          <a class="nav-link" href="advancedSearch.html">Advanced Search</a>
         </li>
     </ul>
+    <div class="container-fluid text-center vertical-center">
+      <img src="google.png" alt="">
+
       <form action="https://google.com/search" class="text-center">
         <div class="form-text ">
-          <input type="text" name="q" class="form-input rounded-pill  ">
+          <input type="text" name="q" class="form-input rounded-pill" placeholder="Search Google or type a URL">
+          <input type="hidden" name="btnI" value="">
         </div>
         <div class="form-submit">
-          <input type="submit" value="Google Search" class="form-button rounded">
+          <input type="submit" value="Google Search" class="form-button rounded ">
+          <input type="submit" value="I'm Feeling Lucky" class="form-button rounded ">
         </div>
 
-       </form>
+      </form>
+    </div>
     </body>
 </html>
